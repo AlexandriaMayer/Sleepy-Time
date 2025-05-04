@@ -1,35 +1,13 @@
-<!DOCTYPE html>
-<head>
-    <meta charset="utf-8">
-    <meta name="description" content="logging and displaying the times the user slept">
-    <meta name="keywords" content="sleep, health, tracking, bedtime, wakeup, eepy">
-    <meta name="viewport" content="width = device-width, initial-scale=1">
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sleepy Time</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="normallize" href="css/normalize.css">
-    <link rel="reset" href="css/reset.css">
-</head>
-<body>
-    <header><h1>Sleepy Time</h1></header>
-    <main>
-        <section class="bigbox">
-            <section class="input-forms">
-                <section class="form">
-                    <label for="bedtime">When you go to bed?</label>
-                    <input type="datetime-local" id="bedtime" required>
-                </section>
-            </section>
-                <section class="form">
-                    <label for="wakeup">When did you wake up?</label>
-                    <input type="datetime-local" id="wakeup" required>
-                </section>
-            </section>
-            <section class="submit-it">
-                <label for="submission">Submit!</label>
-                <input type="submit" id="submission" required>
-            </section>
-        </section>
-    </main>
-    <script src='https://cdn.jsdelivr.net/npm/temporal-polyfill@0.3.0/global.min.js'></script>
-    <script src="js/script.js"></script>
-</body>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
