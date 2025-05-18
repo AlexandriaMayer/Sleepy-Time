@@ -1,1 +1,1 @@
-"lesbian server running"
+console.log("lesbian server running")
