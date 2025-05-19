@@ -3,6 +3,8 @@ import globals from 'globals'
 import reactHooks from 'eslint-plugin-react-hooks'
 import reactRefresh from 'eslint-plugin-react-refresh'
 
+// I was told I don't need eslint at this point
+
 export default [
   { ignores: ['dist'] },
   {
